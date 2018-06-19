@@ -7,6 +7,7 @@ def fizzbuzz(int)
     puts "FizzBuzz"
   else
     puts "The number is not divisible by 3 or 5."
+  end
 end
  
 fizzbuzz(3) # =>
