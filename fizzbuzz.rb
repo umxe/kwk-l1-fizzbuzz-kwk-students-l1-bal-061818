@@ -1,12 +1,12 @@
 def fizzbuzz(int)
   if int % 3 == 0
     puts "Fizz"
-  end
   elsif int % 5 == 0
     puts "Buzz"
-  if int % 5 == 0 && int % 3 == 0
+  elsif int % 5 == 0 && int % 3 == 0
     puts "FizzBuzz"
-  end
+  else
+    puts "The number is not divisible by 3 or 5."
 end
  
 fizzbuzz(3) # =>
